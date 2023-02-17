@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100,400&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <meta name="viewport" content="width=device-width,inital-scale=1.0">
+</head>
+<body>
+    
+    <div id="navigation" class="navigation">
+        <ul>
+            <li>
+             <img src="img/logo.png" width="300" height="50">
+               </li>
+            <li><a href="index.html">Ordens de serviço</a></li>
+            <li><a href="atividade.html">Atividade</a></li>
+            <li><a href="cadastros.html">Cadastros</a></li>
+            <li><a href="teams.html">Teams</a></li>
+            <li><a href="lixeira.html">lixeira</a></li>
+            <li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li>
+        </ul>
+    </div>
+    
+    <div id="teams-container">
+       
+        <form action="">
+            <h1>Novo Usuário</h1>
+            <label for="name">Nome</label>
+            <input type="name" name="name" id="name" placeholder="Nome">
+
+            <label for="e-mail">E-mail</label>
+            <input type="e-mail" name="e-mail" id="e-mail" placeholder="e-mail">
+
+            <label for="login">login</label>
+            <input type="login" name="login" id="login" placeholder="login">
+
+            <label for="password">Senha</label>
+            <input type="password" name="password" id="password" placeholder="Nova Senha">
+            <div>
+                <label for="information">Dados de acceso</label>
+                <select name="nomeMenu">
+                    <optgroup label="teams">
+                     <option value="valor1">Técnico operacional</option>
+                    <option value="valor2">Garantia</option>
+                    <option value="valor3">Manutenção</option>
+                    </optgroup>
+           
+                  </select>
+                  
+                </div>
+                <input type="checkbox" name="agreement" id="agreement">
+                <label for="agreement" id="agreement-label">Enviar login e senha para o e-mail do usuário</label>
+         
+        </form>
+    </div>
+</body>
+</html>
